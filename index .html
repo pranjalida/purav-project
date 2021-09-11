@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+ <nav class="navbar-inverse my_nav_bar">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Purav arora</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+        <li> <a href="#">School name</a></li>
+        <li> <a href="#">Campus life</a></li>
+        <li> <a href="#">Achievements</a></li>
+        <li> <a href="#">What’s New</a></li>
+        <li> <a href="#">Alumni</a></li>
+        <li> <a href="#">Contact us</a></li>
+        </ul>
+    </div> 
+    </nav>
+    <div class="announcement" >
+    <marquee id="marqueestyle" onmouseover="this.stop();" onmouseout="this.start();">
+    **** Feel free to ask questions on bcm32a@gmail.com ****
+        </marquee>
+    </div>
+    <center>
+        <h2> B.C.M SR. SEC. SCHOOL</h2>
+    <img  class="img-responsive" src="Bcm%20School-Campus-View%20(1).png">
+      </center>
+    <div class="container">
+        <!--Campus Life-->
+        <div class="page-header" id="campus_life">
+            <h2 class="text-capitalize">Campus Life</h2>
+
+            <div class="row">
+                <!--1st Campus Life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="temple.jpeg">
+                    <h4 class="text-capitalize"><kbd>school temple</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was established in ...</h5>
+                    <p class="text-muted text-left">It is a place in our school where hawans are held.</p>
+                </div>
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="library.jpeg">
+                    <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+                    <hr>
+                    <h5 class="text-capitalize text-success text-left">Was built in ..</h5>
+                    <p class="text-muted text-left">There are 3 library in our school. Its the one for middle section</p>
+
+                </div>
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="auditorium.jpeg">
+                    <h4 class="text-capatalize"><kbd>school auditorium</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was built in ..</h5>
+                    <p class="text-left text-muted">it is a competition,activity zone of our school.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+           Ambedkar jayanti drawing competition <i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="item_0_12_APR_BR1.jpeg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Ambedkar jayanti drawing competition
+                </h5>
+                <p>.......</p>
+            </div>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+            Earth day mask competition<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement2" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                
+                <img src="item_0_20_APR_MASK_MAKING.jpeg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="movie_text col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <h5 class="text-success text-left text-capitalize"> Earth day mask competition
+                </h5>
+                <p>.....</p>
+            </div>
+        </div>
+
+        <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#school_achievement3">
+            lsss swimming Competition<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement3" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="item_0_swimming.jpeg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+              <h5 class="text-left text-success text-capitalize">lsss swimming comp. champion
+                </h5>
+                <p>.....</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+        <h2 class="text-capatalize">Contact Us</h2>
+        </div>
+        <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3423.249299292195!2d75.8986988150951!3d30.907655084232232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a9d293a5665f3%3A0x2e929982e45ab6d!2sB.C.M.Senior%20Secondary%20School!5e0!3m2!1sen!2sin!4v1631189808386!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="details">
+        <img src="2018_1$largeimg17_Wednesday_2018_010901377.jpeg" class="img-responsive  img-circle  col-lg-4 col-md-4 col-sm-4 col-xs-3">
+            <h3>Principal Name:</h3>
+            <h4>D.P Guleria</h4>
+        </div>
+        <div class="contact_1">
+        <a href="mailto:bcm32a@gmail.com?Subject="Hi>
+            <h5><i class="fa fa-envelope"></i>&nbsp;bcm32a@gmail.com</h5>
+            </a>
+            <a href="#">
+            <h5><i class="fa fa-phone-square"></i>
+                0161 222 5133
+                </h5>
+            </a>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>
